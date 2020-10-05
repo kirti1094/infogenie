@@ -1,0 +1,181 @@
+.Table__itemCount {
+  /* margin-top: 10px; */
+  font-size: 14px;
+}
+
+.Table__pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+.Table__pageButton {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Table__pageButton:disabled {
+  cursor: not-allowed;
+  color: gray;
+}
+
+.Table__pageButton--active {
+  color: #45b3e3;
+  font-weight: bold;
+}
+
+.ReactTable .rt-tbody .rt-tr-group {
+  padding: 5px;
+}
+
+.ReactTable .rt-thead.-header {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+
+.rt-th:nth-child(1){
+  width: 0px!important;
+  flex: 70 0 auto!important;
+}
+
+
+.rt-th:nth-child(6){
+  width:0px!important;
+  flex: 70 0 auto!important;
+}
+
+.rt-th:nth-child(7){
+  width:0px!important;
+  flex: 23 0 auto!important;
+}
+
+.rt-th:nth-child(8){
+  width:0px!important;
+  flex: 80 0 auto!important;
+}
+
+
+.rt-td:nth-child(1){
+  width: 0px!important;
+  flex: 70 0 auto!important;
+  color: gray;
+  font-weight: 600;
+}
+
+.rt-td:nth-child(2){
+  font-size: 14px;
+  color: gray;
+  font-weight: 600;
+}
+
+.rt-td:nth-child(3){
+font-size: 12px;
+color: gray;
+font-weight: 600;
+}
+
+.rt-td:nth-child(4){
+  font-size: 14px;
+  color: gray;
+  font-weight: 600;
+  }
+  
+
+.rt-td:nth-child(5){
+  color:orange;
+}
+
+.rt-td:nth-child(6){
+  width: 0px!important;
+  flex: 70 0 auto!important;
+  cursor: pointer;
+}
+
+.rt-td:nth-child(7){
+  width: 0px!important;
+  flex: 23 0 auto!important;
+  cursor: pointer;
+}
+
+.rt-td:nth-child(8){
+  width: 0px!important;
+  flex: 80 0 auto!important;
+  cursor: pointer;
+}
+
+.rt-tr{ 
+  color: #807d7d;
+  font-weight: 700;
+}
+
+.Table__prevPageWrapper{
+  position: relative;
+}
+
+.Table__prevPageWrapper:before{
+  position: absolute;
+  content: url("./is-less-than.png");
+  left: -13px;
+  top: 3px;
+}
+
+.Table__nextPageWrapper{
+  position: relative;
+}
+
+.Table__nextPageWrapper:after{
+  position: absolute;
+  content: url("./is-greater-than.png");
+  right: -13px;
+  top: 3px;
+}
+
+.ui{
+  position: relative;
+}
+
+.ui .label{
+  position: absolute;
+  right: 507px;
+  top: -58px;
+  font-size: 20px;
+  color: #f7f5f5;
+  font-weight: 100;
+}
+
+input{
+  padding: 15px 30px 8px 30px;
+    position: absolute;
+    top: -62px;
+    right: 223px;
+    outline: none;
+}
+
+input{
+  background: url("./search.png");
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-origin: content-box;
+  padding: 6px;
+  font-size: 17px;
+  width: 25%;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.ReactTable.-striped.-highlight {
+  margin: -37px 20px 0 20px;
+  border-right: none;
+  border-left: none;
+}
+
+.ReactTable:last-child{
+  border-bottom: 0;
+}

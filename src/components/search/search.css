@@ -1,0 +1,122 @@
+.search-list {
+  padding: 50px 20px 0 20px;
+  text-align: right;
+}
+
+.total-suppression {
+  position: absolute;
+  left: 0;
+  padding: 0 20px 0 20px;
+}
+
+.total-suppression > div {
+  font-weight: 600;
+}
+
+.total-suppression span {
+  color: #f58a05;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.total-suppression img {
+  padding: 0 4px 0 20px;
+}
+
+.before-icon {
+  position: relative;
+  left: 25%;
+  top: 2px;
+}
+
+.before-icon:before {
+  position: absolute;
+  content: url("./group.png");
+  left: -40px;
+}
+
+.SearchBar {
+  background: url("./search.png");
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-origin: content-box;
+  padding: 6px;
+  font-size: 17px;
+  width: 25%;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.list-actions {
+  position: relative;
+  background: #1d62a9d6;
+  padding: 10px 40px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-actions:after {
+  position: absolute;
+  content: url("./down-arrow.png");
+  right: 20px;
+  top: 11px;
+  outline: none;
+}
+
+.vertical-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 250px;
+  right: 0;
+  padding-left: 20px;
+}
+
+.vertical-dropdown a {
+  color: #4b4747;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.vertical-dropdown a:hover {
+  color: rgb(29, 212, 236);
+}
+
+.search-container:hover .vertical-dropdown {
+  display: block;
+  margin-top: 6px;
+}
+
+.vertical-dropdown a:nth-child(1) {
+  background: url("./to-do-list.png");
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+  border-bottom: 1px solid darkgray;
+}
+
+.vertical-dropdown a:nth-child(2) {
+  background: url("./add.png");
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+  border-bottom: 1px solid darkgray;
+}
+
+.vertical-dropdown a:nth-child(3) {
+  background: url("./mail.png");
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+}

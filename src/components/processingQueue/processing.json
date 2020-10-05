@@ -1,0 +1,35 @@
+[
+  {
+    "date": "10-06-1994",
+    "heading": "Webinar Suppression list",
+    "records": "1,900",
+    "validRec": "1,600",
+    "action": "Add Emails",
+    "by": "Kirti Patil",
+    "list": "Already Contacted",
+    "status": "In-progress",
+    "style": "orange"
+  },
+  {
+    "date": "21-12-1993",
+    "heading": "Delete Suppression list- ERP Contact",
+    "records": "7800",
+    "validRec": "6,200",
+    "action": "Delete List",
+    "by": "Ankit Guhe",
+    "list": "Marketo Leads",
+    "status": "In-progress",
+    "style": "orange"
+  },
+  {
+    "date": "24-12-1993",
+    "heading": "Webinar Suppression list",
+    "records": "3500",
+    "validRec": "2,200",
+    "action": "Add Emails",
+    "by": "Ashwini Parte",
+    "list": "Do not distrub",
+    "status": "Queued",
+    "style": "blue"
+  }
+]

@@ -1,0 +1,25 @@
+.logo-main{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    background: aliceblue;
+}
+
+#logo-img{
+    position: absolute;
+    width: 170px;
+    top: 8px;
+    left: 15px;
+}
+
+#updown-arrow{
+    width: 20px;
+    height: 20px;
+}
+
+.manage{
+    font-family: inherit;
+    color: #15252f;
+    padding-left: 10px;
+}

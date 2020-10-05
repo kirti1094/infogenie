@@ -1,0 +1,42 @@
+.lists {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px 10px 20px;
+  position: relative;
+}
+
+.lists:before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+  height: 1px;
+  width: 96.5%;
+  border-bottom: 2px solid #ececec;
+}
+
+.next-to-1 {
+  padding-right: 20px;
+}
+
+.next-to-2 {
+  position: relative;
+}
+
+.next-to-2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  height: 1px;
+  width: 145px;
+  border-bottom: 2.5px solid rgb(0, 145, 241);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.icons {
+  padding-right: 5px;
+}

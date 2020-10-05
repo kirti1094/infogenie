@@ -1,0 +1,171 @@
+.queue-heading{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.queue-heading div{
+  font-weight: 700;
+  color: rgb(100, 98, 98);
+  
+}
+
+.queue-heading a{
+  color: blue;
+  cursor: pointer;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+th {
+  background: #fff;
+  color: #5c5454;
+  font-weight: bold;
+}
+
+td,
+th {
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border: 0;
+  padding-top: 0px;
+}
+
+table > thead > tr:first-child > th {
+  border-top: none!important;
+}
+
+table>thead>tr>th{
+  padding-bottom: 0;
+}
+
+table > thead:last-child > td {
+  border-bottom: none!important;
+}
+
+ tr>th {
+  color: #b9b2b24d;
+}
+
+thead>td {
+  color: rgb(155, 148, 148);
+  font-weight: 600;
+}
+
+thead > :first-child{
+  background:url(./excel.png);
+  background-repeat:no-repeat; 
+  background-position:45% 10%
+} 
+
+table>tr>tr>th{
+  padding:0;
+}
+
+.date-border{
+  position: relative;
+  z-index : 1;
+  text-align: left;
+  color: gray;
+}
+
+.date-border:before{
+  content : "";
+  position: absolute;
+  left    : 25px;
+  height  : 1px;
+  width   : 96%;
+  border-top:1px solid #eee;
+}
+
+.after-border{
+  position: relative;
+  z-index : 1;
+  text-align: left;
+  font-weight: 600;
+  color: #414244;
+}
+
+
+.after-border:before{
+  content : "";
+  position: absolute;
+  left    : 25px;
+  height  : 1px;
+  width   : 96%;
+  border-top:1px solid #eee;
+} 
+
+
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%!important;
+  }
+  
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: "Input Records";
+  }
+  td:nth-of-type(2):before {
+    content: "Valid Records";
+  }
+  td:nth-of-type(3):before {
+    content: "Action";
+  }
+  td:nth-of-type(4):before {
+    content: "By";
+  }
+  td:nth-of-type(5):before {
+    content: "Lists";
+  }
+  td:nth-of-type(6):before {
+    content: "Status";
+  } 
+
+  table>tr{
+    margin: 10px;
+  }
+}
+
